@@ -7,7 +7,7 @@
     17,
     16
   ],
-  "inference_seconds": 0.3444063663482666,
+  "inference_seconds": 6.1836488246917725,
   "torch": "2.5.1+cu121",
   "transformers": "5.17.0",
   "gpu": "Tesla V100-PCIE-16GB"

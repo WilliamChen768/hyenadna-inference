@@ -1,0 +1,26 @@
+6,7c6,7
+< filelock==3.32.3
+< fsspec==2026.7.0
+---
+> filelock==4.0.12
+> fsspec==2026.9.0
+9c9
+< hf-xet==1.6.0
+---
+> hf-xet==1.7.0
+16c16
+< MarkupSafe==3.0.3
+---
+> MarkupSafe==3.0.4
+36c36
+< regex==2026.9.10
+---
+> regex==2026.9.29
+42c42
+< tomli==2.4.1
+---
+> tomli==2.5.0
+47c47
+< typer==0.27.2
+---
+> typer==0.27.3
