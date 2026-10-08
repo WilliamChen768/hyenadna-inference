@@ -17,8 +17,10 @@ ENV_PREFIX="${ENV_PREFIX:-$SCRATCH_DIR/.conda/envs/hyenadna_env}"
 export HF_HOME="${HF_HOME:-$SCRATCH_DIR/.hf_cache}"
 
 module load miniforge
+set +u   # conda's activate/deactivate scripts reference unset variables
 source "$(conda info --base)/etc/profile.d/conda.sh"
 conda activate "$ENV_PREFIX"
+set -u
 
 mkdir -p outputs
 
