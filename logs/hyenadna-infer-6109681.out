@@ -1,0 +1,21 @@
+---------------------------------------
+Begin Slurm Prolog: Oct-08-2026 14:48:01
+Job ID:    6109681
+User ID:   wchen768
+Account:   coc
+Job name:  hyenadna-infer
+Partition: coc-gpu
+QOS:       coc-ice
+---------------------------------------
+---------------------------------------
+Begin Slurm Epilog: Oct-08-2026 14:48:05
+Job ID:        6109681
+User ID:       wchen768
+Account:       coc
+Job name:      hyenadna-infer
+Resources:     cpu=4,gres/gpu:v100=1,mem=32G,node=1
+Rsrc Used:     cput=00:00:16,vmem=0,walltime=00:00:04,mem=42068K,energy_used=0
+Partition:     coc-gpu
+QOS:           coc-ice
+Nodes:         atl1-1-02-011-31-0
+---------------------------------------
