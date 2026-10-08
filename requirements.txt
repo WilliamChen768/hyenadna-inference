@@ -1,0 +1,9 @@
+# Python 3.10.21 (conda-forge); setup_env.sh pins this via python=3.10
+# torch is the CUDA 12.1 build, which only exists on PyTorch's index, so install with:
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+transformers==5.17.0
+numpy==2.2.6
+safetensors==0.8.0
+tokenizers==0.23.2
+huggingface_hub==1.33.0
