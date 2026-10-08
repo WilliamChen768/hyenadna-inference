@@ -9,7 +9,7 @@
 #SBATCH -o logs/%x-%j.out
 #SBATCH -e logs/%x-%j.err
 
-set -euo pipefail
+set -eo pipefail
 cd "$SLURM_SUBMIT_DIR"
 
 SCRATCH_DIR="${SCRATCH_DIR:-$HOME/scratch}"
