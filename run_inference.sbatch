@@ -32,5 +32,6 @@ nvidia-smi
 pip freeze > "logs/pip_freeze_${SLURM_JOB_ID}.txt"
 
 python infer.py
+python validate.py
 
 echo "Finished: $(date)"
